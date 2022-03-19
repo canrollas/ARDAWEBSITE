@@ -10,23 +10,39 @@
             <h1 style="text-align: center;">PWM Data Encoder
                 </h1><br>
             <p><h4>PWM Data Encoder</h4>
+            <br>
+            Project Members: Arda Tanıl KERSÜ
+            <br>
+            Mert Burak YASDIKCIOĞLU
+            <br><br>
+            Advisor: Barış YAZAR
+            <br><br><br>
                 The purpose of this project is to <i>encode</i> a data signal which can be an arbitrary binary
             sequence, into the systems clock signal. Imagine a case where the clock signal as well as the binary
             output data of a device is to be transferred to another device via cables. This operation would require
             a cable for each individual signal to be carried on. Not only would this double the cable cost to a
             considerable degree given that a project may be a large one, it would also create more space for
             hardware errors to occur since more parts in a system means more possible faults.
+            <br><br>
+            <div class="row">
+                <div class="col-12" style="align-items: center;text-align: center">
+                    <img src="../static/encoder.png"  style="background: black;width: 100%;height: auto;">
 
-            //ltspice devre şeması
-
+                </div>
+            </div>            <br><br>
                 The projects two key elements are monostable multivibrators and frequency to voltage converter.
             Here, MMV's are of 74HC family of integrated circuits and FVC is a customly designed third-order
             Sallen-Key active Low-Pass filter. The finished product successfully encodes an incoming data of 1
             into a clock signal by increasing clock signals duty-cycle from %50 to %75, and encodes an incoming
             data of 0 by decreasing the clock signals duty-cycle to %25.
 
-            //output resmi
+            <br><br>
+            <div class="row">
+                <div class="col-12" style="align-items: center;text-align: center">
+                    <img src="../static/pwm_output.png"  style="background: black;width: 100%;height: auto;">
 
+                </div>
+            </div>
             <br><br>
             <br><br>
             <a href="mailto:ardakersu@gmail.com">●
